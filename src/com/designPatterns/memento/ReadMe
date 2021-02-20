@@ -1,0 +1,8 @@
+Memento Design Pattern
+-----------------------
+1.It is use to restore the state of object to its previous states.
+
+2.The memento can capture an object internal state so that the object
+can later be restored to the state.
+
+3. It is used in undo and redo operation in most of the software.
