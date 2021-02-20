@@ -1,5 +1,8 @@
 package com.designPatterns.statePattern;
 
+/**
+ * @author Vaibhav
+ */
 public class Canvas {
 	
 	private Tool currentTool;
