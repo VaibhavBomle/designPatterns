@@ -1,4 +1,4 @@
-package com.designPatterns.itertorPattern2;
+package com.designPatterns.iteratorPattern2;
 
 /**
  *
