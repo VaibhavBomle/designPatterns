@@ -2,11 +2,6 @@ package com.designPatterns.iteratorPattern1;
 
 /**
  *
- * Problem in this implementation :
- * If we change List object(declared in BrowseHistory class )  into array( for fix no. of Urls).
- * we need to change main method implementation.
- * We can solve this problem into iterator pattern.
- *
  * In this implementation you only deal with URL Object . If Suppose requirement is to deal with Person or Product object
  * You need to change main  class  implementation with BrowserHistory implementation.
  * @Author Vaibhav
