@@ -1,4 +1,4 @@
-package com.designPatterns.memento;
+package com.designPatterns.mementoPattern;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.designPatterns.memento;
+package com.designPatterns.mementoPattern;
 
 /**
  * 
