@@ -14,7 +14,12 @@ public class Main {
         boldCommand.execute();
         System.out.println(document.getContent());
 
-        boldCommand.Unexecute();
+
+        boldCommand.unExecute();
+        System.out.println(document.getContent());
+
+        var undoCommand =   new UndoCommand(history);
+        undoCommand.execute();
         System.out.println(document.getContent());
 
     }

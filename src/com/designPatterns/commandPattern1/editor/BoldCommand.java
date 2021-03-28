@@ -1,6 +1,6 @@
 package com.designPatterns.commandPattern1.editor;
 
-public class BoldCommand implements UndoableCommand {
+public class BoldCommand implements  UndoableCommand {
 
     private String prevContent;
     private HtmlDocument document;
@@ -11,15 +11,15 @@ public class BoldCommand implements UndoableCommand {
         this.history = history;
     }
 
-    @Override
+
     public void execute() {
         prevContent=  document.getContent();
         document.makeBold();
         history.push(this);
     }
 
-    @Override
-    public void Unexecute() {
+    public void unExecute() {
         document.setContent(prevContent);
     }
+
 }

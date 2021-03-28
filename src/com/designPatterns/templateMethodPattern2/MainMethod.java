@@ -1,5 +1,7 @@
 package com.designPatterns.templateMethodPattern2;
 
+import java.util.ArrayList;
+
 /**
  * Template Design Pattern
  * -----------------------
@@ -16,7 +18,6 @@ public class MainMethod {
 
         var task2 = new GenerateReportTask();
         task2.execute();
-
 
     }
 }
